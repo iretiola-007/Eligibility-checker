@@ -7,4 +7,5 @@ A little project of mine on Python
 
 ![Iretiola's GitHub stats](https://github-readme-stats.vercel.app/api?username=iretiola-007&show_icons=true&theme=radical)
 
+[![CodePen Projects](https://img.shields.io/badge/CodePen-Projects-blue?logo=codepen)](https://codepen.io/_Rayof-light)
 

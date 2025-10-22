@@ -1,5 +1,5 @@
 
-print("How you know if you passed. You must be 18+ to use this application")
+print("Math Grading Application.\n You must be 18+ to use this application")
 
 name = input("Please, enter your name: ")
 print(f"Hello, {name}!")
@@ -8,7 +8,9 @@ age = int(input("How old are you? "))
 if age >= 18:
     print("Please accept our 'Terms of Use' below")
     terms_of_use = input("Type an answer: ")
-    if terms_of_use == "Yes":
+    agree = "yes"
+    no_agree = "no"
+    if terms_of_use.lower() == agree:
         print("Please hold on while we redirect you....")
     else:
         print("Something went wrong :(. Please try again later")

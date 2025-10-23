@@ -1,5 +1,5 @@
 
-print("Math Grading Application.\n You must be 18+ to use this application")
+print("Grading Application.\n You must be 18+ to use this application")
 
 name = input("Please, enter your name: ")
 print(f"Hello, {name}!")
@@ -19,11 +19,11 @@ else:
 
 print("Welcome to my app! Please fill in the details below")
 pass_mark = 75
-math_score = int(input("Enter your score: "))
-difference_in_score = math_score - pass_mark
-if math_score >= pass_mark:
+exam_score = int(input("Enter your score: "))
+difference_in_score = exam_score - pass_mark
+if exam_score >= pass_mark:
     print(f"Congratulations! You passed! You got {difference_in_score} marks above the pass mark")
-elif math_score >= 65:
+elif exam_score >= 65:
     print("You have been put into the waiting list")
 else:
     print("Try again next time :(")

@@ -26,4 +26,4 @@ if exam_score >= pass_mark:
 elif exam_score >= 65:
     print("You have been put into the waiting list")
 else:
-    print("Try again next time :(")
+    print("Try again next time :(")  

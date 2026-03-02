@@ -6,4 +6,4 @@ while i < n:
     i += 1
     print(f"Looped {i} time{'s' if i> 1 else ''}")
 
-  
+# looped
